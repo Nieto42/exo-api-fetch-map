@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+body {
+    background: #F2EFE4;
+    min-height: 100vh;
+    margin: 0 1rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #333333;
+    padding: 3rem 0;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+h5 {
+    font-size: 0.7rem;
+    color: #4A4346;
+}
+
+.search {
+    margin-bottom: 2rem;
+    font-family: inherit;
+    border-radius: 0px;
+    padding: .5rem;
+    width: 350px;
+    outline: none;
+    font-size: 2rem;
+    border: 2px solid salmon;
+    color: #333333;
+    transition: all .3s ease;
+}
+
+.search:focus{
+    border: 2px solid #333333;
+}
+
+.results{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.country-item {
+    border-radius: 0px;
+    background: #fff;
+ 
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    width: 380px;
+    margin: .3rem auto;
+    color: #333333;
+
+}
+
+.country-flag {
+    width: 2.5rem;
+    height: 1.7rem;
+    margin-left: 0.5rem;
+    border-radius: 50px;
+    box-shadow: 1px 1px 3px #F2EFE4;
+}
+.country-name{
+    flex: 2;
+    margin: 0 5px;
+    text-align: center;
+}
+.country-info{
+    border-left: 3px solid #333333;
+    padding: 0 1rem;
+    flex: 0.5;
+    text-align: center;
+}
+
+.country-population{
+    width: 70px;
+}
+
+.country-population-text{
+    text-transform: uppercase;
+}
